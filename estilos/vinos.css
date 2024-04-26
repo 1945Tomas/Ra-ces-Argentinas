@@ -1,0 +1,159 @@
+@import url(/estilos/style.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+/* PALETA */
+:root {
+    --clr-1: #400101;
+    --clr-2: #730202;
+    --clr-white: #ececec;
+    --clr-gray: #e2e2e2;
+    --clr-gray-1: #73706C;
+}
+
+body{
+    background-color: var(--clr-gray);
+}
+
+
+header{
+    height: 100px;
+    position: relative;
+    background-color: black;
+    transition: 0s;
+}
+
+header.abajo{
+    display: none;
+    transition: 0s;
+}
+
+h1{
+    text-align: center;
+    padding-top: 2rem;
+    color: brown;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+#listaGeneral{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    align-items: center;
+}
+#vinos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+    padding: 2rem;
+}
+.tarjeta img {
+    max-width: 100% ;
+    padding: 1px;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    background-color: var(--clr-white);
+    color: var(--c);
+    border-radius: 3px;
+
+}
+.centroTarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta .imgCard{
+    border-radius: 3px;
+}
+.tarjeta .h2Card{
+    padding: .3rem;
+    text-align: center;
+    margin-top: -10px;
+    color: var(--clr-1);
+    letter-spacing: 2px;
+}
+.tarjeta .smallCard{
+    padding: .1rem;
+    color: var(--clr-1);
+}
+.tarjeta .pCard{
+    padding:.6rem ;
+    text-align: center;
+    
+}
+
+
+footer{
+    background-color: var(--clr-gray-1);
+}
+.social i {
+    color:var(--clr-1);
+}
+.copyrigth{
+    color: var(--clr-1);
+}
+
+
+
+@media (max-width: 500px) {
+    header {
+        position: absolute;
+        flex-direction: column; 
+        align-items: center;
+        padding: 1rem; 
+    }
+
+    header .logo {
+        width: 60px; 
+    }
+
+    header ul {
+        flex-direction: column; 
+        align-items: center;
+        gap: 0.2rem;
+    }
+
+    header ul li a {
+        font-size: small; 
+    }
+
+    h1 {
+        font-size: medium; 
+        padding-top: 1rem;
+    }
+
+    #vinos {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .tarjeta {
+        padding: 1rem; 
+    }
+
+    .tarjeta .h2Card {
+        font-size: medium; 
+    }
+
+    footer {
+        flex-direction: column; 
+        padding: 1rem; 
+    }
+
+    .social i {
+        font-size: small; 
+    }
+}
