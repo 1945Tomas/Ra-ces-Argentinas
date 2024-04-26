@@ -94,7 +94,7 @@ header.abajo ul li  {
 /* MAIN STAR */
 
 #main{
-    background-image: url(/multimedia/background/bckg3.jpeg);
+    background-image: url(../multimedia/background/bckg3.jpeg);
     background-position: center center;
     background-size:cover;
     height: 100vh;

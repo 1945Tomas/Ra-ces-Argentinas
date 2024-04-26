@@ -7,7 +7,7 @@
         "anio": 2019,
         "precio": 25.99,
         "descripcion": "Vino tinto argentino con cuerpo medio y notas frutales.",
-        "imagen": "/multimedia/imagenesVinos/vino1.jpg",
+        "imagen": "../multimedia/imagenesVinos/vino1.jpg",
         "bodega": "Bodega Malbec"
     },
     {
@@ -18,7 +18,7 @@
         "anio": 2018,
         "precio": 19.99,
         "descripcion": "Vino tinto con cuerpo, aroma a grosellas y especias.",
-        "imagen": "/multimedia/imagenesVinos/vino1.jpg",
+        "imagen": "../multimedia/imagenesVinos/vino1.jpg",
         "bodega": "Bodega Cabernet"
     },
     {
@@ -29,7 +29,7 @@
         "anio": 2020,
         "precio": 22.50,
         "descripcion": "Vino blanco con cuerpo medio y notas a frutas tropicales.",
-        "imagen": "/multimedia/imagenesVinos/vino1.jpg",
+        "imagen": "../multimedia/imagenesVinos/vino1.jpg",
         "bodega": "Bodega Chardonnay"
     },
     {
@@ -40,7 +40,7 @@
         "anio": 2017,
         "precio": 18.75,
         "descripcion": "Vino tinto suave con notas a ciruela y vainilla.",
-        "imagen": "/multimedia/imagenesVinos/vino2.jpg",
+        "imagen": "../multimedia/imagenesVinos/vino2.jpg",
         "bodega": "Bodega Merlot"
     },
     {
@@ -51,7 +51,7 @@
         "anio": 2016,
         "precio": 28.50,
         "descripcion": "Vino tinto potente con aromas a moras y especias.",
-        "imagen": "/multimedia/imagenesVinos/vino3.jpg",
+        "imagen": "../multimedia/imagenesVinos/vino3.jpg",
         "bodega": "Bodega Syrah"
     },
     {
@@ -62,7 +62,7 @@
         "anio": 2016,
         "precio": 28.50,
         "descripcion": "Vino tinto potente con aromas a moras y especias.",
-        "imagen": "/multimedia/imagenesVinos/vino3.jpg",
+        "imagen": "../multimedia/imagenesVinos/vino3.jpg",
         "bodega": "Bodega Syrah"
     },
     {
@@ -73,7 +73,7 @@
         "anio": 2016,
         "precio": 28.50,
         "descripcion": "Vino tinto potente con aromas a moras y especias.",
-        "imagen": "/multimedia/imagenesVinos/vino3.jpg",
+        "imagen": "../multimedia/imagenesVinos/vino3.jpg",
         "bodega": "Bodega Syrah"
     },
     {
@@ -84,7 +84,7 @@
         "anio": 2016,
         "precio": 28.50,
         "descripcion": "Vino tinto potente con aromas a moras y especias.",
-        "imagen": "/multimedia/imagenesVinos/vino3.jpg",
+        "imagen": "../multimedia/imagenesVinos/vino3.jpg",
         "bodega": "Bodega Syrah"
     }
 ]
